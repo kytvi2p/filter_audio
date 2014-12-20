@@ -1,3 +1,9 @@
+filteraudio (0.0.0+git20141203-1~deb7u+1) stable; urgency=medium
+
+  * Backport to Wheezy
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Sat, 20 Dec 2014 02:54:12 +0000
+
 filteraudio (0.0.0+git20141203-1) unstable; urgency=low
 
   * Initial release
