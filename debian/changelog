@@ -1,3 +1,9 @@
+filteraudio (0.0.0+git20141203-1ubuntu1) utopic; urgency=medium
+
+  * Building for Utopic
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Sat, 20 Dec 2014 02:32:31 +0000
+
 filteraudio (0.0.0+git20141203-1) unstable; urgency=low
 
   * Initial release
