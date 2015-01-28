@@ -1,3 +1,9 @@
+filteraudio (0.0.0+git20150127-1~trusty+1) trusty; urgency=medium
+
+  * Building for Trusty
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Wed, 28 Jan 2015 12:37:31 +0000
+
 filteraudio (0.0.0+git20150127-1) unstable; urgency=medium
 
   [ Håvard Pettersson ]
@@ -18,12 +24,6 @@ filteraudio (0.0.0+git20150127-1) unstable; urgency=medium
   * new upstream git snapshot
 
  -- Kill Your TV <killyourtv@i2pmail.org>  Wed, 28 Jan 2015 02:41:44 +0000
-
-filteraudio (0.0.0+git20141203-1~trusty+1) trusty; urgency=medium
-
-  * Building for Trusty
-
- -- Kill Your TV <killyourtv@i2pmail.org>  Sat, 20 Dec 2014 02:33:22 +0000
 
 filteraudio (0.0.0+git20141203-1) unstable; urgency=low
 
