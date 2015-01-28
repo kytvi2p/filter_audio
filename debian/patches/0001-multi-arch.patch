@@ -1,0 +1,28 @@
+From: Kill Your TV <killyourtv@i2pmail.org>
+Date: Wed, 28 Jan 2015 03:07:03 +0000
+Subject: multi-arch
+
+---
+ Makefile | 9 ++-------
+ 1 file changed, 2 insertions(+), 7 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index d8acc65..4122c3d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -12,13 +12,8 @@ OBJ = $(SRC:.c=.o)
+ HEADER = filter_audio.h
+ LDFLAGS += -lm -lpthread -Wl,-soname=$(SHARED_LIB)
+ 
+-# Check on which platform we are running
+-UNAME_M = $(shell uname -m)
+-ifeq ($(UNAME_M), x86_64)
+-	LIBDIR = lib64
+-else
+-	LIBDIR = lib
+-endif
++DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
++LIBDIR = lib/$(DEB_HOST_MULTIARCH)
+ 
+ all: $(TARGET)
+ 
