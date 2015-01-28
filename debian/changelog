@@ -1,3 +1,9 @@
+filteraudio (0.0.0+git20150127-1~precise+1) precise; urgency=medium
+
+  * Backport to Precise
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Wed, 28 Jan 2015 12:43:30 +0000
+
 filteraudio (0.0.0+git20150127-1ubuntu1) utopic; urgency=medium
 
   * Building for Utopic
