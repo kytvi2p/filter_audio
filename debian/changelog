@@ -1,3 +1,24 @@
+filteraudio (0.0.0+git20150127-1) unstable; urgency=medium
+
+  [ Håvard Pettersson ]
+  * Added Makefile.
+  * Updated README build instructions.
+
+  [ phigoro ]
+  * add a bit of portability to Makefile
+
+  [ Ansa89 ]
+  * Makefile: install library into correct directory
+  * Added pkg-config configuration file
+  * filteraudio.pc: fix typos and add version
+  * Makefile: install filteraudio.pc into correct directory
+  * Makefile: create static library (plus some other minor changes)
+
+  [ Kill Your TV ]
+  * new upstream git snapshot
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Wed, 28 Jan 2015 02:41:44 +0000
+
 filteraudio (0.0.0+git20141203-1~trusty+1) trusty; urgency=medium
 
   * Building for Trusty
